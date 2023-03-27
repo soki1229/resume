@@ -7,15 +7,16 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: 김우석
-    tagline: 풀 스택 개발자
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+name: 김우석 (Philip Kim)
+    tagline: Full Stack Developer
+    avatar: profile-icon.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: woosukplay3@gmail.com
     phone: 010-5327-7190
-    timezone: Korea Standard Time (UTC+09:00)
-    citizenship:
+    timezone: KST (UTC+09:00)
+    citizenship: Republic of Korea
     website: soki1229.github.io/blogspace/ #do not add http://
     linkedin: 
     xing: 
@@ -36,7 +37,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Professional
+          level: Intermediate
 
     interests:
       title: Interests
@@ -62,8 +63,8 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: 컴퓨터공학사
-        university: 가천대학교
+      - degree: BCs in Computer Engineering
+        university: Gachon University
         time: 2015 - 2021
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -76,9 +77,9 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: 임베디드 
+      - role: Embedded Software Engineer 
         time: 2021 - Present
-        company: 미디어젠(주), 서울
+        company: Mediazen, Seoul
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -190,5 +191,5 @@ skills:
         level: 98%
 
 footer: >
-     Hope you enjoyed.
+     Have a nice day.
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
