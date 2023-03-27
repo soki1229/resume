@@ -83,21 +83,13 @@ experiences:
         time: 2021 - Present
         company: Mediazen, Seoul
         details: |
-          Taking charge of voice recognition service on GENESIS franchise.
-          Developing VR(voice recognition) application runs on AVN/IVI, aka Car-Infotainment based on Linux.
-          Used various kind of libraries for implement. (ex. FFmpeg, WebSocket)
-          Ported Embedded ASR Engine provided by Cerence, SoundHound.
-          Ported Online ASR Server by implementing WebSocket Client for Kakao, Cerence, Houndify, ccVR(Connected Car Voice Recognition) Server.
-          Implemented STT feature: Retreive pcm audio buffer from mic input through EC/NR filtering.
-          Implemented TTS feature: Synthesize pcm audio buffer from text for streaming prompt.
-#          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#          Cum sociis natoque penatibus et magnis dis parturient montes,
-#          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-#          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-#          error sit voluptatem accusantium doloremque laudantium, totam rem
-#          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-#          architecto beatae vitae dicta sunt explicabo.
+#          Taking charge of voice recognition service on GENESIS franchise.
+#          Developing VR(voice recognition) application runs on AVN/IVI, aka Car-Infotainment based on Linux.
+#          Used various kind of libraries for implement. (ex. FFmpeg, WebSocket)
+#          Ported Embedded ASR Engine provided by Cerence, SoundHound.
+#          Ported Online ASR Server by implementing WebSocket Client for Kakao, Cerence, Houndify, ccVR(Connected Car Voice Recognition) Server.
+#          Implemented STT feature: Retreive pcm audio buffer from mic input through EC/NR filtering.
+#          Implemented TTS feature: Synthesize pcm audio buffer from text for streaming prompt.
             - ccOS(Connected Car Operating System)
             - Linux/Embedded
             - Qt/qml
