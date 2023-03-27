@@ -5,12 +5,10 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-
     # Profile information
     name: Woosuk Kim
     tagline: Full Stack Developer
     avatar: profile-icon.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
     # Sidebar links
     email: woosukplay3@gmail.com
     phone: 010-5327-7190
@@ -28,7 +26,6 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
-
     languages:
       title: Languages
       info:
@@ -37,7 +34,6 @@ sidebar:
 
         - idiom: English
           level: Intermediate
-
     interests:
       title: Interests
       info:
@@ -49,7 +45,6 @@ sidebar:
 
         - item: Interest 3
           link:
-
 career-profile:
     title: Career Profile
     summary: |
@@ -60,7 +55,6 @@ career-profile:
 #      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 #      Donec quam felis, ultricies nec, pellentesque eu.
 #      Second paragraph if required.
-
 education:
     title: Education
     info:
@@ -75,7 +69,6 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-
 experiences:
     title: Experiences
     info:
@@ -83,13 +76,13 @@ experiences:
         time: 2021 - Present
         company: Mediazen, Seoul
         details: |
-#          Taking charge of voice recognition service on GENESIS franchise.
-#          Developing VR(voice recognition) application runs on AVN/IVI, aka Car-Infotainment based on Linux.
-#          Used various kind of libraries for implement. (ex. FFmpeg, WebSocket)
-#          Ported Embedded ASR Engine provided by Cerence, SoundHound.
-#          Ported Online ASR Server by implementing WebSocket Client for Kakao, Cerence, Houndify, ccVR(Connected Car Voice Recognition) Server.
-#          Implemented STT feature: Retreive pcm audio buffer from mic input through EC/NR filtering.
-#          Implemented TTS feature: Synthesize pcm audio buffer from text for streaming prompt.
+          Taking charge of voice recognition service on GENESIS franchise.
+          Developing VR(voice recognition) application runs on AVN/IVI, aka Car-Infotainment based on Linux.
+          Used various kind of libraries for implement. (ex. FFmpeg, WebSocket)
+          Ported Embedded ASR Engine provided by Cerence, SoundHound.
+          Ported Online ASR Server by implementing WebSocket Client for Kakao, Cerence, Houndify, ccVR(Connected Car Voice Recognition) Server.
+          Implemented STT feature: Retreive pcm audio buffer from mic input through EC/NR filtering.
+          Implemented TTS feature: Synthesize pcm audio buffer from text for streaming prompt.
             - ccOS(Connected Car Operating System)
             - Linux/Embedded
             - Qt/qml
@@ -97,7 +90,6 @@ experiences:
             - ALSA
             - WebSocket
             - Git
-            
 #       - role: Senior Software Engineer
 #         time: 2014 - 2015
 #         company: Google, London
@@ -120,14 +112,10 @@ experiences:
 #           pellentesque eu, pretium quis, sem.
 #             - Bullet point
 #             - Bullet point
-            
 projects:
     title: Projects
     intro: > 
       Projects on interest. 
-#      You can list your side projects in this
-#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: DevOps
         link: "#hook"
@@ -137,7 +125,6 @@ projects:
       - title: Jenkins CI
       - title: Jfrog Artifactory
       - title: KeyClock(Single Sign-On)
-
 # oss:
 #     title: OSS Contributions
 #     intro: >
