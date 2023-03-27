@@ -7,8 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-
-name: 김우석 (Philip Kim)
+    name: 김우석 (Philip Kim)
     tagline: Full Stack Developer
     avatar: profile-icon.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
