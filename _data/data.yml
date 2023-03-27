@@ -118,13 +118,13 @@ projects:
       Projects on interest. 
     assignments:
       - title: DevOps
-        link: "#hook"
+        link: "http://112.220.79.218:24981/"
         tagline: "Consturcted & Operated CI(Continous Integration) System for improvment of developing evironment"
-      - title: Git
-      - title: Gerrit
-      - title: Jenkins CI
-      - title: Jfrog Artifactory
-      - title: KeyClock(Single Sign-On)
+        tagline: "Git"
+        tagline: "Gerrit"
+        tagline: "Jenkins CI"
+        tagline: "Jfrog Artifactory"
+        tagline: "KeyClock(Single Sign-On)"
 # oss:
 #     title: OSS Contributions
 #     intro: >
