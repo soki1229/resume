@@ -7,8 +7,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Philip Kim
-    tagline: Full Stack Developer
+    name: 김우석
+    tagline: 풀 스택 개발자
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -62,8 +62,8 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: BSc in Computer Engineering
-        university: Gachon University
+      - degree: 컴퓨터공학사
+        university: 가천대학교
         time: 2015 - 2021
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -76,9 +76,9 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Embedded Developer
+      - role: 임베디드 
         time: 2021 - Present
-        company: Mediazen, Seoul
+        company: 미디어젠(주), 서울
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
