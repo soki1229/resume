@@ -119,12 +119,12 @@ projects:
     assignments:
       - title: DevOps
         link: "http://112.220.79.218:24981/"
-        tagline: "Consturcted & Operated CI(Continous Integration) System for improvment of developing evironment"
-        tagline: "Git"
-        tagline: "Gerrit"
-        tagline: "Jenkins CI"
-        tagline: "Jfrog Artifactory"
-        tagline: "KeyClock(Single Sign-On)"
+        tagline: "Established & Operated CI(Continous Integration) System"
+#        tagline: "Git"
+#        tagline: "Gerrit"
+#        tagline: "Jenkins CI"
+#        tagline: "Jfrog Artifactory"
+#        tagline: "KeyClock(Single Sign-On)"
 # oss:
 #     title: OSS Contributions
 #     intro: >
