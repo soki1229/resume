@@ -117,9 +117,15 @@ projects:
     intro: > 
       Projects on interest. 
     assignments:
-      - title: DevOps
+      - title: Gerrit-Code-Review
         link: "http://112.220.79.218:24981/"
+        tagline: "Established & Operated Version Control System"
+      - title: Jenkins-CI
+        link: "http://112.220.79.218:37070/"
         tagline: "Established & Operated CI(Continous Integration) System"
+      - title: Jfrog-Artifactory
+        link: "http://112.220.79.218:38082/"
+        tagline: "Packaging & Managing artifacts"
 #        tagline: "Git"
 #        tagline: "Gerrit"
 #        tagline: "Jenkins CI"
