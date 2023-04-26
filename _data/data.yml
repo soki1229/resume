@@ -78,7 +78,7 @@ experiences:
         details: |
           Taking charge of voice recognition service on GENESIS franchise.
           Developing VR(voice recognition) application runs on AVN/IVI, aka Car-Infotainment based on Linux.
-          Used various kind of libraries for implement. (ex. FFmpeg, WebSocket)
+          Implemented features using open libraries. (ex. FFmpeg, WebSocket)
           Ported Embedded ASR Engine provided by Cerence, SoundHound.
           Ported Online ASR Server by implementing WebSocket Client for Kakao, Cerence, Houndify, ccVR(Connected Car Voice Recognition) Server.
           Implemented STT feature: Retreive pcm audio buffer from mic input through EC/NR filtering.
