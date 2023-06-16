@@ -6,33 +6,33 @@ sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
     # Profile information
-    name: Woosuk Kim
-    tagline: Full Stack Developer
+    name: 김우석 / Woosuk Kim
+    tagline: 임베디드 개발자 / Embedded Developer
     avatar: profile-icon.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     # Sidebar links
     email: woosukplay3@gmail.com
     phone: 010-5327-7190
     timezone: KST (UTC+09:00)
-    citizenship: Rep. of Korea
-    website: soki1229.github.io/blogspace/ #do not add http://
-    linkedin: 
-    xing: 
+    citizenship: 대한민국 / Rep. of Korea
+    website: soki1229.github.io/myspace/ #do not add http://
+#     linkedin: 
+#     xing: 
     github: soki1229
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+#     telegram: # add your nickname without '@' sign
+#     gitlab:
+#     bitbucket:
+#     twitter: 
+#     stack-overflow: # Number/Username, e.g. 123456/alandoe
+#     codewars:
+#     goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: /assets/portfolio.pdf
     languages:
       title: Languages
       info:
-        - idiom: Korean
+        - idiom: 한국어 / Korean
           level: Native
 
-        - idiom: English
+        - idiom: 영어 / English
           level: Intermediate
     interests:
       title: Interests
