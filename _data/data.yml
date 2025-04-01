@@ -3,284 +3,184 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right # Sidebar position: left or right
+  about: False # Display "How to use?" section in the sidebar
+  education: True # Display education section in the sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Woosuk Kim
+  tagline: C++ Software Developer
+  avatar: profile.png # Place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: woosukplay3@gmail.com
+  phone: +82-10-5327-7190
+  timezone: Asia/Seoul # Set timezone for South Korea
+  citizenship: South Korea
+  website: https://github.com/soki1229 # GitHub profile link as the website
+  linkedin: wskim1229
+  xing: # Leave empty if no Xing account
+  github: soki1229
+  telegram: # Add your Telegram username without '@' sign if applicable, leave empty otherwise
+  gitlab: # Leave empty if no GitLab account
+  bitbucket: # Leave empty if no Bitbucket account
+  bluesky: # Leave empty if no Bluesky account
+  twitter: # Add your Twitter username in '@username' format if applicable, leave empty otherwise
+  stack-overflow: # Add Stack Overflow ID/Username if applicable, leave empty otherwise
+  codewars: # Add Codewars username if applicable, leave empty otherwise
+  goodreads: # Add Goodreads ID/Username if applicable, leave empty otherwise
+  mastodon: # Include full Mastodon link if applicable, leave empty otherwise
+  hackerrank: # Provide HackerRank username if applicable, leave empty otherwise
+  leetcode: # Provide LeetCode username if applicable, leave empty otherwise
+  pdf: https://github.com/soki1229/online-cv/raw/main/resume.pdf # Add a PDF link for your resume
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Korean
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
+    - idiom: English
       level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Software Architecture Design
       link:
 
-
-    - item: Snowboarding
+    - item: Distributed Systems Research
       link:
 
-
-    - item: Cooking
+    - item: Embedded Systems Optimization
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I am a software developer specializing in high-performance distributed systems and embedded environment optimization.  
+    With expertise in C++11~C++20 standards, I design and implement efficient software solutions that maximize resource utilization under constrained environments.  
+    I collaborate with global teams to deliver innovative solutions and ensure software reliability through test-driven development (TDD) and secure coding practices.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelor of Computer Science
+    university: Gachon University
+    time: March 2015 - August 2021
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Studied comprehensive computer science theories and practices, focusing on software development and system design.
+        - Data Structures and Algorithms
+        - Network Programming and Operating Systems
+        - Embedded Systems and Distributed System Design
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Developer (Telecommunications)
+    time: 2023.10.16 - Present
+    company: Ericsson
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Responsible for the design, implementation, and maintenance of the 5G Core SMF (Session Management Function).  
+      Leveraged modern C++20 features and template-based design to improve code reusability and scalability.  
+      Collaborated with global customers and peers to provide technical support while ensuring code reliability through TDD practices.
+        - Designed a template-based abstract framework to increase code reusability by 40%.
+        - Ensured code safety by adhering to Secure Coding Guidelines using clang-tidy.
+
+  - role: Software Developer (In-Vehicle Infotainment)
+    time: 2021.01.11 - 2023.10.09
+    company: Mediazen
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Developed voice recognition software for Hyundai Genesis vehicles, optimizing resources in embedded environments.  
+      Implemented hybrid voice recognition systems using HTTP/WebSocket protocols to transmit audio buffers and receive recognition results.
+        - Reduced CPU usage by 30% through memory-efficient algorithms using Circular Buffers.
+        - Improved maintainability by adopting design patterns for multi-platform support.
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Engineer Information Processing
+    start: 2024.06.18
+    # end: Lifetime Validity 
+    organization: HRDK
+    credentialid: 24201071364A
+    # credentialurl: www.hrdkorea.or.kr/
+    credentialname: Engineer Information Processing Certification
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Certified in Engineer Information Processing, demonstrating theoretical knowledge and practical skills in software development.  
+      This certification evaluates expertise in areas such as:
+        - Software Development Processes
+        - Data Structures and Algorithms
+        - Database Management and System Analysis
+        - Computer Architecture and Operating Systems
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - name: Linux Master Level 2
+    start: 2019.10.11
+    # end: Lifetime Validity
+    organization: KAIT
+    credentialid: LMS-1903-004618
+    # credentialurl: www.kait.or.kr/
+    credentialname: Linux Master Level 2 Certification
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Certified in Linux Master Level 2, demonstrating practical skills in Linux system management and operation.  
+      This certification evaluates the ability to use Linux commands and related programs for user-level tasks, including installation, configuration, and troubleshooting.  
+      Key topics covered include:
+        - General Linux: Understanding Linux, installation, and basic commands.
+        - Linux Operation & Management: File system commands, shell scripting, process management, software installation, and device configuration.
+        - Linux Utilization: X-Windows usage, internet services setup, and application areas.
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    All projects were carried out with the goal of maximizing efficiency in high-performance distributed systems and embedded environments.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Enhanced Log and Response Handling for Errors
+    link:
+    tagline: "Implemented error logging functionality using (C++20, RapidJSON, Template Programming) to improve debugging efficiency in HTTP-based systems."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Statistics for PFCP Error Cause Code
+    link:
+    tagline: "Developed error statistics collection and debugging functionality using (PFCP Protocol, Smart Pointers, YANG Model) to enhance network stability."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Dual Stack Support for DNS Interface
+    link:
+    tagline: "Added IPv4/IPv6 Dual Stack support using (C++17, Kubernetes, State Machine Design) to improve DNS service compatibility and performance."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: VR Application for HKMC PGen6, ccIC
+    link:
+    tagline: "Designed hybrid voice recognition software using (HTTP, WebSocket, ALSA, FFmpeg) to enable real-time audio processing for Hyundai Genesis vehicles."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Wake-Up Word Voice Recognition for ccIC27
+    link:
+    tagline: "Implemented wake-up word detection ('Hey Genesis') using (Circular Buffer, Multi-thread Programming, ALSA) to optimize resource management in embedded environments."
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: CCVR Development with Adaptation
+    link:
+    tagline: "Developed prototype features using (FFmpeg, ALSA, WebSocket) for next-generation Hyundai Genesis platforms with advanced media processing capabilities."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Jenkins CI/CD Infrastructure Construction
+    link:
+    tagline: "Built a unified CI/CD pipeline using (Jenkins CI/CD, Python/Bash Scripting) to automate build and deployment processes across multiple platforms."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     Contributed to open-source projects, collaborating with the software community to driv
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    toolset:
+      - name: Bash
+        level: 98%
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - name: C
+        level: 87%
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+      - name: C++
+        level: 98%
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+      - name: Java
+        level: 65%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+     Online CV by Woosuk Kim.
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
